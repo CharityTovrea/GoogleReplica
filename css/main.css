@@ -23,3 +23,26 @@ a:hover {
     /*add underline when user hovers on*/
     text-decoration: underline;
 }
+
+/*Top Section - Navigation*/
+/*select any elements with a class of top-navigation*/
+.top-navigation {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+/*select any elements with a class of top-navigation and find any li tags inside those*/
+.top-navigation li {
+    display:inline-block;
+    padding: 5px 10px 0 0;
+    vertical-align: bottom;
+    margin: 5px 5px 0 0;
+    font-size: 13px;
+}
+/*select the font awesome standard class to change the icons*/
+.fa {
+    font-size: 20px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
