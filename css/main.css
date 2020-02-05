@@ -1,0 +1,25 @@
+/* Order your css from top to botttom, but start with general site wide rules at the top */
+
+/* Use an * to set site wide styles*/
+* {
+    /*change the default color of all elements to black*/
+    color: #000;
+}
+body {
+    /*set default margin to 0 - because every browser has a different default margin*/
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
+/*select all anchor tags*/
+a {
+    /*change the text color to light blackish*/
+    color:#222222;
+    /*remove default underline*/
+    text-decoration: none;
+}
+/*select all anchor tags when they are hovered on*/
+a:hover {
+    /*add underline when user hovers on*/
+    text-decoration: underline;
+}
